@@ -1,11 +1,16 @@
 package com.ndroid.weatherapp2
 
-import com.google.gson.JsonObject
 import retrofit2.Call
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface WeatherService {
 
-    @GET("?q=Paris&appid=915a276fe2f42f1255762165dd49adce&units=metric")
-    fun getWeatherByCity(): Call<JsonObject>
+    companion object {
+        const val API_KEY = "YOUR CODE HERE"
+        const val BASE_URL = "https://api.openweathermap.org/data/2.5/weather/"
+    }
+
+    @GET("?units=metric&appid=$API_KEY")
+    fun getWeatherByCity(@Query("q") city: String): Call<WeatherResult>
 }
