@@ -12,5 +12,6 @@ Partie 3: https://www.youtube.com/watch?v=JfHvG4CSLL8&list=PLrMZu04URlemQR87vCVU
 Si tous qui vous interessez c'est le code source, faites vous plaisier et télécharger ou clone le projets. 
 
 
-J'utilise l'api de openweathermap.org pour recevoir les data 
-NB: le key openweatherapi est supprimer donc génerer votre propore key.
+J'utilise l'api de openweathermap.org pour recevoir les data.
+
+NB: le key openweatherapi est supprimé donc génerer votre propore key.
