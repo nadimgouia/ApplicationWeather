@@ -10,3 +10,7 @@ Partie 2: https://www.youtube.com/watch?v=JfHvG4CSLL8&list=PLrMZu04URlemQR87vCVU
 Partie 3: https://www.youtube.com/watch?v=JfHvG4CSLL8&list=PLrMZu04URlemQR87vCVUf_0EWfaf3T3SZ&index=3
 
 Si tous qui vous interessez c'est le code source, faites vous plaisier et télécharger ou clone le projets. 
+
+
+J'utilise l'api de openweathermap.org pour recevoir les data 
+NB: le key openweatherapi est supprimer donc génerer votre propore key.
